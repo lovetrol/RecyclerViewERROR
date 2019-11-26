@@ -5,13 +5,13 @@ public class Usuarios {
     //private int id;
     private String nombre;
     private String altaprot;
-    //private String image;
+    private String image;
 
-    public Usuarios(/*int id,*/ String nombre, String altaprot/*, String image*/) {
+    public Usuarios(/*int id,*/ String nombre, String altaprot, String image) {
         //this.id = id;
         this.nombre = nombre;
         this.altaprot = altaprot;
-        //this.image = image;
+        this.image = image;
     }
 
 /*
@@ -27,7 +27,7 @@ public class Usuarios {
         return altaprot;
     }
 
-   /* public String getImage() {
+    public String getImage() {
         return image;
-    }*/
+    }
 }

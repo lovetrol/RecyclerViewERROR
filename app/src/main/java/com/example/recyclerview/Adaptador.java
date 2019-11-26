@@ -20,7 +20,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.UsuariosViewHolder
 
 
     class UsuariosViewHolder extends RecyclerView.ViewHolder {
-        // each data item is just a string in this case
+
         TextView textViewNombre, textViewAltaprot;
         ImageView imageView;
 
@@ -62,6 +62,7 @@ public class Adaptador extends RecyclerView.Adapter<Adaptador.UsuariosViewHolder
 
         holder.textViewNombre.setText(usuarios.getNombre());
         holder.textViewAltaprot.setText(usuarios.getAltaprot());
+
 
     }
 

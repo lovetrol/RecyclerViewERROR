@@ -25,7 +25,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-    private static final String URL_Usuarios = "http://infecto.mx/imprint/services/service.php";
+    private static final String URL_Usuarios = "https://www.serverbpw.com/cm/2020-1/products.php";
 
     List<Usuarios> usuariosList;
 
@@ -65,9 +65,9 @@ public class MainActivity extends AppCompatActivity {
 
                                 usuariosList.add(new Usuarios(
                                         //usuario.getInt("id"),
-                                        usuario.getString("usuario_nickname"),
-                                        usuario.getString("usuario_altaprot")
-                                        //usuario.getString("image")
+                                        usuario.getString("name"),
+                                        usuario.getString("provider"),
+                                        usuario.getString("thumbnail_url")
                                 ));
                                 Toast.makeText(MainActivity.this, "hola"+usuariosList, Toast.LENGTH_SHORT).show();
                             }
